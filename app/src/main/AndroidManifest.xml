@@ -4,7 +4,6 @@
 
     <!-- describes fundamental characteristics of the app -->
     <!-- also defines each of the app's components -->
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,6 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DisplayMessageActivity"></activity>
     </application>
 
 </manifest>
